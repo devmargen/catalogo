@@ -1,5 +1,9 @@
 const LIBROS_DATA_URL = "./libros.json";
 const libros = [];
+const brokenCoverUrls = new Set();
+const COVER_PLACEHOLDER_DATA_URL = `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(
+  '<svg xmlns="http://www.w3.org/2000/svg" width="56" height="78" viewBox="0 0 56 78"><rect width="56" height="78" fill="#efe5d8"/><rect x="8" y="10" width="40" height="58" rx="4" fill="#f8f2e8" stroke="#d8c8b5"/><text x="28" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7a6f61">Sin</text><text x="28" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7a6f61">portada</text></svg>'
+)}`;
 
 const catalogTableBody = document.getElementById("catalogTableBody");
 const searchInput = document.getElementById("searchInput");
@@ -21,6 +25,23 @@ function escapeHtml(value) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
+}
+
+function getCoverSrc(portada) {
+  if (!portada || brokenCoverUrls.has(portada)) {
+    return COVER_PLACEHOLDER_DATA_URL;
+  }
+  return portada;
+}
+
+function handleCoverError(event) {
+  const img = event.currentTarget;
+  const originalSrc = img?.dataset?.originalSrc || "";
+  if (originalSrc) {
+    brokenCoverUrls.add(originalSrc);
+  }
+  img.src = COVER_PLACEHOLDER_DATA_URL;
+  img.classList.add("cover-placeholder");
 }
 
 function getFilteredLibros() {
@@ -74,11 +95,12 @@ function renderCatalog() {
     .map((libro) => {
       const statusClass =
         libro.estado === "disponible" ? "status-disponible" : "status-circulacion";
+      const coverSrc = getCoverSrc(libro.portada);
 
       return `<tr>
-        <td><img class="cover" src="${escapeHtml(libro.portada)}" alt="Portada de ${escapeHtml(
-        libro.titulo
-      )}" loading="lazy" onerror="this.src='https://via.placeholder.com/54x72?text=Sin+imagen';" /></td>
+        <td><img class="cover" src="${escapeHtml(coverSrc)}" data-original-src="${escapeHtml(
+        libro.portada
+      )}" alt="Portada de ${escapeHtml(libro.titulo)}" loading="lazy" /></td>
         <td>${escapeHtml(libro.titulo)}</td>
         <td>${escapeHtml(libro.autor)}</td>
         <td>${escapeHtml(libro.genero)}</td>
@@ -87,6 +109,11 @@ function renderCatalog() {
       </tr>`;
     })
     .join("");
+
+  const coverImages = catalogTableBody.querySelectorAll("img.cover");
+  coverImages.forEach((img) => {
+    img.addEventListener("error", handleCoverError, { once: true });
+  });
 }
 
 function capitalize(value) {

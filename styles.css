@@ -193,6 +193,12 @@ tbody tr:hover {
   border-radius: 8px;
   border: 1px solid #d9ccbc;
   box-shadow: 0 4px 10px rgba(31, 29, 24, 0.16);
+  background: #f8f2e8;
+}
+
+.cover-placeholder {
+  object-fit: contain;
+  padding: 4px;
 }
 
 .status {
