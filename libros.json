@@ -1,18 +1,429 @@
+Página
+/1
+
 [
   {
-    "portada": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=220&q=80",
-    "titulo": "El nombre del viento",
-    "autor": "Patrick Rothfuss",
-    "genero": "Fantasia",
-    "idioma": "Español",
-    "estado": "disponible"
+    "portada": "https://github.com/devmargen/catalogo/portadas/Atmosphere%3A%20una%20historia%20de%20amor",
+    "titulo": "Atmosphere: una historia de amor",
+    "autor": "Taylor Jenkins Reid",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
   },
   {
-    "portada": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=220&q=80",
-    "titulo": "Cien años de soledad",
-    "autor": "Gabriel Garcia Marquez",
-    "genero": "Realismo magico",
-    "idioma": "Español",
+    "portada": "https://github.com/devmargen/catalogo/portadas/Project%20Hail%20Mary",
+    "titulo": "Project Hail Mary",
+    "autor": "Andy Weir",
+    "genero": "Ficción contemporánea",
+    "idioma": "inglés",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/La%20casa%20de%20los%20esp%C3%ADritus",
+    "titulo": "La casa de los espíritus",
+    "autor": "Isabel Allende",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
     "estado": "en circulación"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Atonement",
+    "titulo": "Atonement",
+    "autor": "Ian McEwan",
+    "genero": "Ficción contemporánea",
+    "idioma": "inglés",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Barbra%20Streisand%3A%20Her%20Life",
+    "titulo": "Barbra Streisand: Her Life",
+    "autor": "James Spada",
+    "genero": "Biografía",
+    "idioma": "inglés",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Brando",
+    "titulo": "Brando",
+    "autor": "Peter Manso",
+    "genero": "Biografía",
+    "idioma": "inglés",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Brillo",
+    "titulo": "Brillo",
+    "autor": "Raven Leilani",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Catedrales",
+    "titulo": "Catedrales",
+    "autor": "Claudia Piñeiro",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/C%C3%B3mo%20me%20enamor%C3%A9%20de%20Nicolas%20Cage",
+    "titulo": "Cómo me enamoré de Nicolas Cage",
+    "autor": "Carla Quevedo",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/C%C3%B3mo%20vender%20una%20casa%20encantada",
+    "titulo": "Cómo vender una casa encantada",
+    "autor": "Grady Hendrix",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Dear%20John",
+    "titulo": "Dear John",
+    "autor": "Nicholas Sparks",
+    "genero": "Romance",
+    "idioma": "inglés",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/El%20amante%20japon%C3%A9s",
+    "titulo": "El amante japonés",
+    "autor": "Isabel Allende",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/El%20juego%20de%20Ripper",
+    "titulo": "El juego de Ripper",
+    "autor": "Isabel Allende",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "en circulación"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Intermezzo",
+    "titulo": "Intermezzo",
+    "autor": "Sally Rooney",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/La%20mujer%20que%20soy",
+    "titulo": "La mujer que soy",
+    "autor": "Britney Spears",
+    "genero": "Memorias",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/La%20uruguaya",
+    "titulo": "La uruguaya",
+    "autor": "Pablo Mairal",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Las%20hermanas%20Blue",
+    "titulo": "Las hermanas Blue",
+    "autor": "Coco Mellors",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Los%20destrozos",
+    "titulo": "Los destrozos",
+    "autor": "Bret Easton Ellis",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Los%20pilares%20de%20la%20tierra",
+    "titulo": "Los pilares de la tierra",
+    "autor": "Ken Follet",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/M%C3%A1s%20all%C3%A1%20del%20invierno",
+    "titulo": "Más allá del invierno",
+    "autor": "Isabel Allende",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Me%20Before%20You",
+    "titulo": "Me Before You",
+    "autor": "Jojo Moyes",
+    "genero": "Romance",
+    "idioma": "inglés",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Mi%20historia",
+    "titulo": "Mi historia",
+    "autor": "Michelle Obama",
+    "genero": "Memorias",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Mi%20nombre%20es%20Emilia%20del%20Valle",
+    "titulo": "Mi nombre es Emilia del Valle",
+    "autor": "Isabel Allende",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Mugre%20rosa",
+    "titulo": "Mugre rosa",
+    "autor": "Fernanda Trías",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Peque%C3%B1os%20milagros",
+    "titulo": "Pequeños milagros",
+    "autor": "Nicholas Sparks",
+    "genero": "Romance",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/The%20Fury",
+    "titulo": "The Fury",
+    "autor": "Alex Michaelides",
+    "genero": "Ficción contemporánea",
+    "idioma": "inglés",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/The%20Housemaid",
+    "titulo": "The Housemaid",
+    "autor": "Freida McFadden",
+    "genero": "Ficción contemporánea",
+    "idioma": "inglés",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/The%20Seven%20Sisters",
+    "titulo": "The Seven Sisters",
+    "autor": "Lucinda Riley",
+    "genero": "Ficción contemporánea",
+    "idioma": "inglés",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/The%20Woman%20in%20the%20Window",
+    "titulo": "The Woman in the Window",
+    "autor": "A. J. Finn",
+    "genero": "Ficción contemporánea",
+    "idioma": "inglés",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Then%20Again",
+    "titulo": "Then Again",
+    "autor": "Diane Keaton",
+    "genero": "Memorias",
+    "idioma": "inglés",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Tres%20peque%C3%B1as%20mentiras",
+    "titulo": "Tres pequeñas mentiras",
+    "autor": "Laura Marshal",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Tuya",
+    "titulo": "Tuya",
+    "autor": "Claudia Piñeiro",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Under%20the%20Dome",
+    "titulo": "Under the Dome",
+    "autor": "Stephen King",
+    "genero": "Ficción contemporánea",
+    "idioma": "inglés",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Violeta",
+    "titulo": "Violeta",
+    "autor": "Isabel Allende",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/La%20hora%20azul",
+    "titulo": "La hora azul",
+    "autor": "Paula Hawkins",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Punto%20ciego",
+    "titulo": "Punto ciego",
+    "autor": "Paula Hawkins",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Carrie%20Soto%20is%20Back",
+    "titulo": "Carrie Soto is Back",
+    "autor": "Taylor Jenkins Reid",
+    "genero": "Ficción contemporánea",
+    "idioma": "inglés",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Sweetbitter",
+    "titulo": "Sweetbitter",
+    "autor": "Stephanie Danler",
+    "genero": "Ficción contemporánea",
+    "idioma": "inglés",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Los%20hombres%20que%20no%20amaban%20a%20las%20mujeres",
+    "titulo": "Los hombres que no amaban a las mujeres",
+    "autor": "Stieg Larsson",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/La%20chica%20que%20so%C3%B1aba%20con%20una%20cerilla%20y%20un%20bid%C3%B3n%20de%20gasolina",
+    "titulo": "La chica que soñaba con una cerilla y un bidón de gasolina",
+    "autor": "Stieg Larsson",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/La%20reina%20en%20el%20palacio%20de%20las%20corrientes%20de%20aire",
+    "titulo": "La reina en el palacio de las corrientes de aire",
+    "autor": "Stieg Larsson",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/La%20muerte%20ajena",
+    "titulo": "La muerte ajena",
+    "autor": "Claudia Piñeiro",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/The%20Great%20Alone",
+    "titulo": "The Great Alone",
+    "autor": "Kristin Hannah",
+    "genero": "Ficción contemporánea",
+    "idioma": "inglés",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/El%20juego%20de%20la%20luz",
+    "titulo": "El juego de la luz",
+    "autor": "Louise Penny",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Grace%20Kelly",
+    "titulo": "Grace Kelly",
+    "autor": "Donald Spoto",
+    "genero": "Biografía",
+    "idioma": "inglés",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/La%20mirada%20de%20los%20%C3%A1ngeles",
+    "titulo": "La mirada de los ángeles",
+    "autor": "Camilla Läckberg",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Lincoln%20in%20the%20Bardo",
+    "titulo": "Lincoln in the Bardo",
+    "autor": "George Saunders",
+    "genero": "Ficción contemporánea",
+    "idioma": "inglés",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Redenci%C3%B3n",
+    "titulo": "Redención",
+    "autor": "Mary Gordon",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Cien%20a%C3%B1os%20de%20soledad",
+    "titulo": "Cien años de soledad",
+    "autor": "Gabriel García Márquez",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/El%20resplandor",
+    "titulo": "El resplandor",
+    "autor": "Stephen King",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Doctor%20sue%C3%B1o",
+    "titulo": "Doctor sueño",
+    "autor": "Stephen King",
+    "genero": "Ficción contemporánea",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Un%20lugar%20feliz",
+    "titulo": "Un lugar feliz",
+    "autor": "Emily Henry",
+    "genero": "Romance",
+    "idioma": "español",
+    "estado": "Disponible"
+  },
+  {
+    "portada": "https://github.com/devmargen/catalogo/portadas/Invasiones",
+    "titulo": "Invasiones",
+    "autor": "Margara Ferber",
+    "genero": "Novela histórica",
+    "idioma": "español",
+    "estado": "Disponible"
   }
 ]
