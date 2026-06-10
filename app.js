@@ -98,14 +98,16 @@ function renderCatalog() {
       const coverSrc = getCoverSrc(libro.portada);
 
       return `<tr>
-        <td><img class="cover" src="${escapeHtml(coverSrc)}" data-original-src="${escapeHtml(
+        <td data-label="Portada"><img class="cover" src="${escapeHtml(coverSrc)}" data-original-src="${escapeHtml(
         libro.portada
       )}" alt="Portada de ${escapeHtml(libro.titulo)}" loading="lazy" /></td>
-        <td>${escapeHtml(libro.titulo)}</td>
-        <td>${escapeHtml(libro.autor)}</td>
-        <td>${escapeHtml(libro.genero)}</td>
-        <td>${escapeHtml(libro.idioma)}</td>
-        <td><span class="status ${statusClass}">${escapeHtml(capitalize(libro.estado))}</span></td>
+        <td data-label="Título">${escapeHtml(libro.titulo)}</td>
+        <td data-label="Autor">${escapeHtml(libro.autor)}</td>
+        <td data-label="Género">${escapeHtml(libro.genero)}</td>
+        <td data-label="Idioma">${escapeHtml(libro.idioma)}</td>
+        <td data-label="Estado"><span class="status ${statusClass}">${escapeHtml(
+        capitalize(libro.estado)
+      )}</span></td>
       </tr>`;
     })
     .join("");
